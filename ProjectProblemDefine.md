@@ -24,45 +24,7 @@
    - maybe generate music for a fixed amount of time or fixed amount of note
 
 
-This file preserves your original README content and also includes the assistant's draft design below it.
 
-## Original README (your text)
-
-The section below is your original README content preserved verbatim.
-
-```markdown
-## Project 509A- Python composer- current in wk1 module
-### GOAL: Music Composer 
-<p> driven by **Python**, **automatically** creating simple melodies </p>
-
-### About Melodies
-<p> A melody is the sequence of musical notes, or pitches, arranged in a specific rhythm.Music notes are symbols representing sounds of specific pitches and durations, using letters A through G in the Western system.</p>
-
-### Thinking in modularized way
-- Input
-    - the program can stick to notes within a specific scale, like C Major or A Minor,
-    - different notes shall be coded/transport in someway the program can pick and "write down" in sequence
-    - the program may request some input from user as initial start, like a number or letter of note, bpm or scale.
-
-- Output
-    - Ideally, I think the program should produce a music score and can connect to some player for the notes. This requires them speak the same language about melody.
-    - the music might look like: ~note/pause, note pitch, note duration~,  ~note/pause, note pitch, note duration~,etc.
-
-- Representation
-    - I prefer Strings the most, it contains the complete info for a note- duration and pitch.
-    - maybe just use the beat and rhythm from music theory, it can be calculated using bpm
-
-- Logic
-    - random pick from musical scale?
-    - maybe generate music for a fixed amount of time or fixed amount of note
-
-- Extension
-    - unpleasant to hear....
-    - the result are always one
-
-```
-
---------
 
 ## Assistant's draft design
 
